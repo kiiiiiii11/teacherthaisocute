@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>มีอะไรอยากจะบอกครูไหมคะ?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>มีอะไรอยากจะบอกครูไหมคะ?</h1>
+    <!-- ฟอร์มส่งข้อความ -->
+    <form id="feedback-form">
+      <input type="text" id="nickname" placeholder="นามแฝง/นามในวงการ" required>
+      <input type="text" id="class-room" placeholder="ห้อง" required>
+      <input type="text" id="teaching-style" placeholder="การจัดการเรียนการสอน" required>
+      <input type="text" id="personality" placeholder="ลักษณะบุคลิกภาพ" required>
+      <button type="submit" id="submit-btn">ส่งข้อความ</button>
+    </form>
+    <button id="view-messages-btn">ดูข้อความของทุกคน</button>
+  </div>
+
+  <!-- พื้นที่แสดงหัวใจและข้อความลอยขึ้น -->
+  <div class="floating-container"></div>
+
+  <!-- กล่องแสดงข้อความทั้งหมด (Modal) -->
+  <div id="messages-container">
+    <div id="messages-box"></div>
+    <button id="close-messages-btn">ปิด</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
