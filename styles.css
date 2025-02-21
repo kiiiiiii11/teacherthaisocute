@@ -1,4 +1,4 @@
-/* นำเข้า Google Fonts: Poppins (สำหรับข้อความทั่วไป) และ Mali (สำหรับหัวข้อ) */
+/* นำเข้า Google Fonts: ใช้ฟอนต์ Poppins สำหรับข้อความทั่วไป และ Mali สำหรับหัวข้อ */
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap');
 
 /* พื้นฐานของหน้าเว็บ */
@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  /* เปลี่ยนพื้นหลังเป็นรูป bg.png */
   background: url('bg.png') no-repeat center center fixed;
   background-size: cover;
   color: #5c3741;
@@ -19,7 +18,7 @@ body {
   background: rgba(255, 255, 255, 0.97);
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   text-align: center;
 }
 
