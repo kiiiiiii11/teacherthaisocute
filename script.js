@@ -2,15 +2,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
 
 // Firebase configuration
-const firebaseConfig = {  
-  apiKey: "AIzaSyByZHRGZ9D19oICXDGqVrcEQvNAZNkjppQ",
-  authDomain: "whatdoyouwanttotellteacher3.firebaseapp.com",
-  databaseURL: "https://whatdoyouwanttotellteacher3-default-rtdb.firebaseio.com",
-  projectId: "whatdoyouwanttotellteacher3",
-  storageBucket: "whatdoyouwanttotellteacher3.firebasestorage.app",
-  messagingSenderId: "285919090323",
-  appId: "1:285919090323:web:ee96b96de8e9d4dd0c9f66",
-  measurementId: "G-XE0MVZ5Y1V"
+const firebaseConfig = {
+  apiKey: "AIzaSyCqZRDgeN5itgNsX3lJIWP4e0djVfpInwk",
+  authDomain: "what-do-you-want-tell-teacher.firebaseapp.com",
+  databaseURL: "https://what-do-you-want-tell-teacher-default-rtdb.firebaseio.com",
+  projectId: "what-do-you-want-tell-teacher",
+  storageBucket: "what-do-you-want-tell-teacher.firebasestorage.app",
+  messagingSenderId: "614070987596",
+  appId: "1:614070987596:web:3639b0defdb33cc0bcfde9",
+  measurementId: "G-ZY48RBELXE"
 };
 
 // Initialize Firebase
